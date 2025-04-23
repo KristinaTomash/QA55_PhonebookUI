@@ -1,4 +1,4 @@
-package com.phonbook.tests;
+package com.phonebook.tests;
 
 import com.phonebook.models.Contact;
 import com.phonebook.models.User;
