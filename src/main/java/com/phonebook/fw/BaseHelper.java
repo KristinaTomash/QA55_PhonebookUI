@@ -24,6 +24,7 @@ public class BaseHelper {
 
     public void type(By locator, String text) {
         if(text!=null){
+
         click(locator);
         driver.findElement(locator).clear();
         driver.findElement(locator).sendKeys(text);
